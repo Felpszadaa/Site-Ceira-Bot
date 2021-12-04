@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 0, 119) !important;
+}
+
+#fundo_pag {
+    background: rgb(26, 26, 31);
+    background: linear-gradient(180deg, rgba(26, 26, 31, 1) 0%, rgba(26, 26, 31, 1) 78%, rgb(255, 0, 119)) 91%, rgba(41, 187, 142, 0) 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(38, 38, 43);
+    box-shadow: 0px 0px 15px black;
+    width: 100%;
+    padding: 15px;
+    z-index: 4;
+}
+
+#infos_iniciais {
+    z-index: 2;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#infos_secundarias {
+    z-index: 2;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#texto_detalhes {
+    width: 50%;
+    padding-left: 20%;
+
+}
+
+#buttons_nav {
+    float: right;
+}
+
+.button,
+.button_nav {
+    text-decoration: none;
+    width: auto;
+    padding: 15px;
+    background-color: rgb(114, 137, 218);
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    transition: backgroundColor .5s;
+    transition: all .5s;
+    box-shadow: 0px 8px 20px black;
+}
+
+.button_nav {
+    padding: 5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.button:hover,
+.button_nav:hover {
+    color: white;
+    background-color: rgb(69, 91, 172);
+}
+
+#transitador {
+    background-color: rgb(255, 0, 119);
+    z-index: 3;
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    top: 0%;
+    animation: carrega_pag 1s;
+}
+
+.convite {
+    background-color: rgb(255, 0, 119);
+    transition: all .5s;
+}
+
+.convite:hover {
+    color: white;
+    background-color: rgb(209, 1, 98);
+}
+
+#img_ceira {
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+
+#descri_top {
+    width: 85%;
+    text-align: center;
+    padding-left: 50%;
+    padding-top: 18%;
+}
+
+#descri_aln {
+    font-size: 22px;
+}
+
+#comandos {
+    display: none;
+    z-index: 3;
+    background-color: rgb(44, 47, 51);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.comandos_menu {
+    background-color: rgb(64, 68, 75);
+    border-radius: 5px;
+    width: 50%;
+    height: 440px;
+    border: 0px;
+    font-size: 18px;
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    overflow-y: none;
+
+}
+
+.comando_line {
+    background-color: rgb(32, 34, 37);
+    color: rgb(220, 221, 210);
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+footer {
+    background-color: rgb(44, 47, 51);
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    bottom: 0px;
+}
+
+
+footer>nav>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+footer a {
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+footer>p {
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+#icone_redes {
+    text-shadow: 0px 0px 10px black;
+    min-width: 10%;
+    right: 10px;
+    top: 20%;
+    position: absolute;
+    height: auto;
+}
+
+mr {
+    background-color: rgb(32, 34, 37);
+    color: rgb(220, 221, 210);
+    font-weight: 500;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}

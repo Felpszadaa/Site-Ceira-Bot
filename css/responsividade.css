@@ -1,0 +1,57 @@
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+    #img_ceira {
+        width: 80%;
+        top: 20%;
+        left: 10%;
+        z-index: 2;
+        position: relative;
+        padding-top: 120px;
+    }
+
+    #descri_top {
+        width: 90%;
+        padding-left: 5%;
+        padding-top: 30px;
+    }
+
+    #comandos {
+        position: fixed;
+    }
+
+    .comandos_menu {
+        top: 20%;
+        padding: 30px;
+        width: 95%;
+        max-height: 500px;
+        position: relative;
+        left: 2.5%;
+        overflow-y: auto;
+    }
+
+    #menu_reacoes {
+        position: relative;
+        top: 22%;
+        left: 0%;
+    }
+
+    .button_nav {
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    #texto_detalhes {
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    #icone_redes {
+        position: relative;
+        padding-left: 46%;
+    }
+
+    #buttons_nav {
+
+        width: 100%;
+    }
+
+}
